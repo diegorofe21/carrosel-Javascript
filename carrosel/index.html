@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br" onload="playCarrossel()">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrosel do Diêgo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer ></script>
+</head>
+<body>
+    <h1>Carrossel | Javascript</h1>
+        <div class="main">
+            
+            <div class="carrossel" onmouseover="pausarCarrossel()" onmouseout="playCarrossel()">         
+                <div class="container" id="img">
+    
+                    <img src="./img/1.png" alt="">
+                    <img src="./img/2.png" alt="">
+                    <img src="./img/3.png" alt="">
+                              
+                </div>
+            </div> 
+            <div class="buttons">
+                <button type="button" class="previous" id="previous" onclick="previousCarrossel()"><</button>
+                <button type="button" class="next" id="next" onclick="nextCarrossel()">></button>               
+            </div>
+           
+        </div>
+  
+       
+    
+</body>
+</html>
